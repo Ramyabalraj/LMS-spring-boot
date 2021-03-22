@@ -1,19 +1,6 @@
 
-
-
-
+addon:
+  key: hello-world
+  base-url: https://e5964f7f5b5d.ngrok.io
 server:
-  port: 8080
-spring:
-  datasource:
-    url: jdbc:h2:file:~/demo
-    username: sa
-    password: 
-    driverClassName: org.h2.Driver
-  h2:
-    console:
-      enabled: true
-      path: /db
-  jpa:
-    hibernate:
-      ddl-auto: create-drop
+  port : 8080
